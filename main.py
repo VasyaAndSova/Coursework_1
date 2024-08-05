@@ -10,7 +10,7 @@ from src.services import profitable_categories_cashback
 from src.utils import get_transactions
 from src.views import main_page
 
-FILE_SOURSE = os.path.join("data", "operations.xls")
+FILE_SOURSE = os.path.join("data", "operations.xlsx")
 FILE_TO_SAVE_REPORT = "category_report.xlsx"
 
 transactions_df = get_transactions(FILE_SOURSE)
