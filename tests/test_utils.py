@@ -9,17 +9,8 @@ import pandas as pd
 import pytest
 import requests
 
-from src.utils import (
-    card_cost_analysis,
-    filter_expenses_by_date,
-    get_exchange_rate,
-    get_greeting,
-    get_period,
-    get_stocks_price,
-    get_top_n_expenses,
-    get_transactions,
-    get_user_settings,
-)
+from src.utils import (card_cost_analysis, filter_expenses_by_date, get_exchange_rate, get_greeting, get_period,
+                       get_stocks_price, get_top_n_expenses, get_transactions, get_user_settings)
 
 
 # Тест функции get_transactions
